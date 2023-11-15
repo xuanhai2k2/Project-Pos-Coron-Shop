@@ -1,0 +1,68 @@
+﻿@{
+    //import file layout
+    Layout = "~/Areas/Admin/Views/Shared/Layout.cshtml";
+}
+@{
+    string _Name = Model != null ? Model.Name : "";
+    string _Email = Model != null ? Model.Email : "";
+}
+<style>
+    .alert{
+        height:50px;
+        background-color:red;
+        color:white;
+        border-radius:5px;
+        line-height:50px;
+        font-size: 20px;
+        margin:20px 0;
+    }
+    .d-block{
+        border-radius:5px;
+        margin:10px 0;
+    }
+</style>
+<div class="col-md-12">
+    @if (!String.IsNullOrEmpty(Context.Request.Query["notify"]))
+    {
+        <div class="alert alert-danger">Email đã tồn tại!</div>
+    }
+    <div class="panel panel-primary">
+        <span class="d-block p-2 text-bg-primary">Add list users</span>
+        <div class="panel-body">
+            <form method="post" action="@ViewBag.action">
+                <!-- rows -->
+                <div class="row" style="margin-top:5px;">
+                    <div class="col-md-2">Name</div>
+                    <div class="col-md-10">
+                        <input type="text" value="@_Name" name="Name" class="form-control" required>
+                    </div>
+                </div>
+                <!-- end rows -->
+                <!-- rows -->
+                <div class="row" style="margin-top:5px;">
+                    <div class="col-md-2">Email</div>
+                    <div class="col-md-10">
+                        <input type="email" value="@_Email" name="Email" class="form-control" required>
+                    </div>
+                </div>
+                <!-- end rows -->
+                <!-- rows -->
+                <div class="row" style="margin-top:5px;">
+                    <div class="col-md-2">Password</div>
+                    <div class="col-md-10">
+                        <input type="password" name="password" @if (Model != null) {<text></text> } class="form-control">
+                    </div>
+                </div>
+                <!-- end rows -->
+                <!-- rows -->
+                <div class="row" style="margin-top:5px;">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-10">
+                        <input type="submit" value="Process" class="btn btn-primary">
+                    </div>
+                </div>
+                <!-- end rows -->
+            </form>
+        </div>
+    </div>
+</div>

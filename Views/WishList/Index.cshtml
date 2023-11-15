@@ -1,0 +1,89 @@
+﻿@{
+    Layout = "~/Views/Shared/LayoutTrangChu.cshtml";
+}
+@using devpro_project.Models
+@{
+    List<int> list_wish_list = ViewBag.list_wish_list as List<int>;
+}
+@functions {
+    public MyDbContext db = new MyDbContext();
+    public ItemProduct GetProduct(int id)
+    {
+        ItemProduct record = db.Products.Where(item => item.Id == id).FirstOrDefault();
+        return record;
+    }
+}
+@if (list_wish_list != null)
+{
+    <div class="pos_page">
+        <div class="container">
+            <!--pos page inner-->
+            <div class="pos_page_inner">
+                <!--shopping cart area start -->
+                <div class="shopping_cart_area">
+                    <form action="#">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="table_desc wishlist">
+                                    <div class="cart_page table-responsive">
+                                        <table>
+                                            <thead>
+                                                <tr>
+                                                    <th class="product_remove">Delete</th>
+                                                    <th class="product_thumb">Image</th>
+                                                    <th class="product_name">Product</th>
+                                                    <th class="product-price">Price</th>
+                                                    <th class="product_quantity">Stock Status</th>
+                                                    <th class="product_total">Add To Cart</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                @foreach (var item in list_wish_list)
+                                                {
+                                                    var product = GetProduct(item);
+                                                    <tr>
+                                                        <td class="product_remove"><a href="/WishList/Remove/@product.Id">X</a></td>
+                                                        <td class=""><a href="#"><img src="~/Upload/Products/@product.Photo" width="100px" alt=""></a></td>
+                                                        <td class="product_name"><a href="/Products/Detail/@product.Id">@product.Name</a></td>
+                                                        <td class="product-price">£@string.Format("{0:#,#.}",(product.Price - (product.Price * product.Discount)/100))</td>
+                                                        <td class="product_quantity">In Stock</td>
+                                                        <td class="product_total"><a href="/Cart/Buy/@product.Id">Add To Cart</a></td>
+
+
+                                                    </tr>
+                                                }
+
+                                            </tbody>
+                                        </table>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </form>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="wishlist-share">
+                                <h4>Share on:</h4>
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-vimeo"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-tumblr"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!--shopping cart area end -->
+            </div>
+        </div>
+    </div>
+}
+else
+{
+    <h2 style="text-align:center">Chưa có sản phẩm yêu thích</h2>
+}

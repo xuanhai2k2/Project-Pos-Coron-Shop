@@ -1,0 +1,90 @@
+﻿@using System.Data
+@using System.Text.Json
+@using Microsoft.Data.SqlClient
+@{
+    //import file layout
+    Layout = "~/Areas/Admin/Views/Shared/Layout.cshtml";
+}
+@{
+    //do trong COntroller truyen ra DataTable nen Model tuowng duong voi Data Table
+    string _Name = Model != null ? Model.Rows[0]["Name"].ToString() : "";
+    int _ParentId = Model != null ? Convert.ToInt32(Model.Rows[0]["ParentId"].ToString()) : 0;
+}
+@functions{
+    //tao chuoi connection string
+   
+    //liet ke cac danh muc cap 0
+    public DataTable GetCategories()
+    {
+        
+        DataTable dtCategories = new DataTable();
+        var config = new ConfigurationBuilder().SetBasePath(Directory.GetCurrentDirectory()).AddJsonFile("appsettings.json").Build();
+        string strConnectionString = config.GetConnectionString("MyConnectionString").ToString();
+        using (SqlConnection conn = new SqlConnection(strConnectionString))
+        {
+            //tao doi tuong DataApter der truyen cau lenh truy van
+            SqlDataAdapter da = new SqlDataAdapter("select * from Categories where ParentId = 0 order by Id desc", conn);
+            // Đổ dữ liệu từ da vào DataTable
+            da.Fill(dtCategories);
+        }
+        return dtCategories;
+
+    }
+ 
+}
+<div class="col-md-12">
+    <div class="panel panel-primary">
+        <span class="d-block p-2 text-bg-primary">Add category</span>
+        <div class="panel-body">
+            <form method="post" action="@ViewBag.action">
+                <!-- rows -->
+                <div class="row" style="margin-top:5px;">
+                    <div class="col-md-2">Name</div>
+                    <div class="col-md-10">
+                        <input type="text" value="@_Name" name="Name" class="form-control" required>
+                    </div>
+                </div>
+                <!-- end rows -->
+                <!-- rows -->
+                <div class="row" style="margin-top:5px;">
+                    <div class="col-md-2">Danh mục cha</div>
+                    <div class="col-md-10">
+                        <select class="form-control" name="ParentId" style="width:250px;">
+                            <option value="0"></option>
+                            @{
+                                DataTable categories = GetCategories();
+                            }
+                            @foreach (DataRow row in categories.Rows)
+                            {
+                                string str_selected = Model != null && Convert.ToInt32(row["Id"]) == Convert.ToInt32(Model.Rows[0]["ParentId"]) ? "selected" : "";
+                                <option @str_selected value="@row["Id"]">@row["Name"]</option>
+                            }
+                        </select>
+                    </div>
+                </div>
+                <!-- end rows -->
+                <!-- rows -->
+                <!-- rows -->
+                <div class="row" style="margin-top:5px;">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-10">
+                        <input type="checkbox" @if (Model != null && Convert.ToInt32(Model.Rows[0]["DisplayHomePage"]) == 1)
+                        {
+                            <text>checked</text>
+                        } name="DisplayHomePage" id="DisplayHomePage"> <label for="DisplayHomePage">Hiển thị danh mục này ở trang chủ</label>
+                    </div>
+                </div>
+                <!-- end rows -->
+                <!-- end rows -->
+                <!-- rows -->
+                <div class="row" style="margin-top:5px;">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-10">
+                        <input type="submit" value="Process" class="btn btn-primary">
+                    </div>
+                </div>
+                <!-- end rows -->
+            </form>
+        </div>
+    </div>
+</div>

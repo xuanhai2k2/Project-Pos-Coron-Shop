@@ -1,0 +1,400 @@
+﻿@using devpro_project.Models
+@using Newtonsoft.Json
+<!--header area -->
+<div class="header_area">
+    <!--header top-->
+    <div class="header_top">
+        <div class="row align-items-center">
+            <div class="col-lg-6 col-md-6">
+                <div class="switcher">
+                    <ul>
+                        <li class="languages">
+                            <a href="#"><img src="~/Frontend/img/logo/fontlogo.jpg" alt=""> English <i class="fa fa-angle-down"></i></a>
+                            <ul class="dropdown_languages">
+                                <li><a href="#"><img src="~/Frontend/img/logo/fontlogo.jpg" alt=""> English</a></li>
+                                <li><a href="#"><img src="~/Frontend/img/logo/fontlogo2.jpg" alt=""> French </a></li>
+                            </ul>
+                        </li>
+
+                        <li class="currency">
+                            <a href="#"> Currency : $ <i class="fa fa-angle-down"></i></a>
+                            <ul class="dropdown_currency">
+                                <li><a href="#"> Dollar (USD)</a></li>
+                                <li><a href="#"> Euro (EUR)  </a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <div class="header_links">
+                    <ul>
+                        <li><a href="/WishList" title="wishlist">My wishlist</a></li>
+                        <li><a href="/Account/Orders" title="My account">My Orders</a></li>
+                        <li><a href="~/Cart/Index" title="My cart">My cart</a></li>
+                        @if (String.IsNullOrEmpty(Context.Session.GetString("customer-email")))
+                        {
+                            <li><a href="/Account/Login" title="Login">Login</a></li>
+                            <li><a href="/Account/Register" title="Contact">Register</a></li>
+                        }
+                        else
+                        {
+                            <li><a href="Account/Login" title="Login">Xin chào @Context.Session.GetString("customer-email")</a></li>
+                            <li><a href="/Account/Logout" title="Contact">Logout</a></li>
+                        }
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--header top end-->
+    <!--header middel-->
+    <div class="header_middel">
+        <div class="row align-items-center">
+            <!--logo start-->
+            <div class="col-lg-3 col-md-3">
+                <div class="logo">
+                    <a href="index.html"><img src="~/Frontend/img/logo/logo.jpg.png" alt=""></a>
+                </div>
+            </div>
+            <!--logo end-->
+            <div class="col-lg-9 col-md-9">
+                <div class="header_right_info">
+                    <div class="search_bar">
+                            <input type ="text" onkeyup="search();" autocomplete="off" name="search" id="key" placeholder="Search..." />
+                            <button type="submit" onclick="location.href='/Products/SearchName?key='+document.getElementById('key').value;"><i class="fa fa-search"></i></button>
+                            <div id="smart-search">
+                                <ul>
+            @*                         <li><a href=""><img src="http://localhost:5217/Upload/Products/133428054116050640_product3.jpg" />product 1 </a></li>
+                                    <li><a href=""><img src="http://localhost:5217/Upload/Products/133428054116050640_product3.jpg" />product 1 </a></li>
+                                    <li><a href=""><img src="http://localhost:5217/Upload/Products/133428054116050640_product3.jpg" />product 1 </a></li> *@
+                                </ul>
+                            </div>
+                            <style>
+                                /*đặt cha làm điểm tựa để id="smart-search" căn theo*/
+                                .search-bar {
+                                    position: relative;
+                                }
+                                /*con căn theo điểm tựa bên ngoài*/
+                                #smart-search {
+                                    position: absolute;
+                                    width: 450px;
+                                    background: white;
+                                    z-index: 100;
+                                    top: 50px;
+                                    display: none;
+                                    height:200px;
+                                    overflow:scroll;
+                                }
+
+                                    #smart-search img {
+                                        width: 70px;
+                                        margin-right: 5px;
+                                    }
+
+                                    #smart-search ul {
+                                        padding: 0px;
+                                        margin: 0px;
+                                        list-style: none;
+                                        text-align: left;
+                                    }
+
+                                        #smart-search ul li {
+                                            border-bottom: 1px solid #dddddd;
+                                        }
+
+                            .search_bar input {
+                                width: 275px;
+                                height: 38px;
+                                background: none;
+                                border: 1px solid #ddd;
+                                padding: 0 59px 0 15px;
+                            }
+
+                            .search_bar button {
+                                position: absolute;
+                                right: 0;
+                                background: none;
+                                border: 0;
+                                border-left: 1px solid #ddd;
+                                font-size: 17px;
+                                color: #333333;
+                                width: 45px;
+                                height: 100%;
+                                cursor: pointer;
+                                -webkit-transition: .3s;
+                                transition: .3s;
+                                top: 0;
+                            }
+
+                                .search_bar button:hover {
+                                    background: #00bba6;
+                                    color: #fff;
+                                }
+                            </style>
+                            <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+                            <script>
+                                //phải kiểm xem jquery đã load được vào trang chưa, nếu chưa thì phải load jquery (vì sử dụng jquery ajax)
+                                //$(document).ready(function(){ alert('ok'); });
+                                function search() {
+                                    var key = document.getElementById('key').value;
+                                    if (key != '') {
+                                        //hiển thị id=smart-search
+                                        document.getElementById("smart-search").setAttribute("style", "display:block;");
+                                        //sử dụng jquery ajax get để lấy dữ liệu
+                                        $.get("http://localhost:5217/Products/AjaxSearch?key=" + key, function (data) {
+                                            //xóa các thẻ li
+                                            $("#smart-search ul").empty();
+                                            //thêm kết quả mới lấy được từ ajax
+                                            $("#smart-search ul").append(data);
+                                        });
+                                    } else {
+                                        document.getElementById("smart-search").setAttribute("style", "display:none;");
+                                    }
+                                }
+                            </script>
+                    </div>
+                    <div class="shopping_cart">
+                        <a href="#"><i class="fa fa-shopping-cart"></i> 2Items - $209.44 <i class="fa fa-angle-down"></i></a>
+
+                        <!--mini cart-->
+                        <div class="mini_cart">
+                            <div class="cart_item">
+                                <div class="cart_img">
+                                    <a href="#"><img src="~/Frontend/img/cart/cart.jpg" alt=""></a>
+                                </div>
+                                <div class="cart_info">
+                                    <a href="#">lorem ipsum dolor</a>
+                                    <span class="cart_price">$115.00</span>
+                                    <span class="quantity">Qty: 1</span>
+                                </div>
+                                <div class="cart_remove">
+                                    <a title="Remove this item" href="#"><i class="fa fa-times-circle"></i></a>
+                                </div>
+                            </div>
+                            <div class="cart_item">
+                                <div class="cart_img">
+                                    <a href="#"><img src="~/Frontend/img/cart/cart2.jpg" alt=""></a>
+                                </div>
+                                <div class="cart_info">
+                                    <a href="#">Quisque ornare dui</a>
+                                    <span class="cart_price">$105.00</span>
+                                    <span class="quantity">Qty: 1</span>
+                                </div>
+                                <div class="cart_remove">
+                                    <a title="Remove this item" href="#"><i class="fa fa-times-circle"></i></a>
+                                </div>
+                            </div>
+                            <div class="shipping_price">
+                                <span> Shipping </span>
+                                <span>  $7.00  </span>
+                            </div>
+                            <div class="total_price">
+                                <span> total </span>
+                                <span class="prices">  $227.00  </span>
+                            </div>
+                            <div class="cart_button">
+                                <a href="checkout.html"> Check out</a>
+                            </div>
+                        </div>
+                        <!--mini cart end-->
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--header middel end-->
+    <div class="header_bottom">
+        <div class="row">
+            <div class="col-12">
+                <div class="main_menu_inner">
+                    <div class="main_menu d-none d-lg-block">
+                        <nav>
+                            <ul>
+                                <li class="active">
+                                    <a href="/Home/Index">Home</a>
+                                </li>
+                                <li>
+                                    <a href="/Products/Categories">shop</a>
+                                </li>
+                                <li><a href="/Contact">news</a></li>
+                                <li><a href="/Contact/Index">contact us</a></li>
+
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="mobile-menu d-lg-none">
+                        <nav>
+                            <ul>
+                                <li>
+                                    <a href="index.html">Home</a>
+                                    <div>
+                                        <div>
+                                            <ul>
+                                                <li><a href="index.html">Home 1</a></li>
+                                                <li><a href="index-2.html">Home 2</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="shop.html">shop</a>
+                                    <div>
+                                        <div>
+                                            <ul>
+                                                <li><a href="shop-list.html">shop list</a></li>
+                                                <li><a href="shop-fullwidth.html">shop Full Width Grid</a></li>
+                                                <li><a href="shop-fullwidth-list.html">shop Full Width list</a></li>
+                                                <li><a href="shop-sidebar.html">shop Right Sidebar</a></li>
+                                                <li><a href="shop-sidebar-list.html">shop list Right Sidebar</a></li>
+                                                <li><a href="single-product.html">Product Details</a></li>
+                                                <li><a href="single-product-sidebar.html">Product sidebar</a></li>
+                                                <li><a href="single-product-video.html">Product Details video</a></li>
+                                                <li><a href="single-product-gallery.html">Product Details Gallery</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="#">women</a>
+                                    <div>
+                                        <div>
+                                            <div>
+                                                <h3><a href="#">Accessories</a></h3>
+                                                <ul>
+                                                    <li><a href="#">Cocktai</a></li>
+                                                    <li><a href="#">day</a></li>
+                                                    <li><a href="#">Evening</a></li>
+                                                    <li><a href="#">Sundresses</a></li>
+                                                    <li><a href="#">Belts</a></li>
+                                                    <li><a href="#">Sweets</a></li>
+                                                </ul>
+                                            </div>
+                                            <div>
+                                                <h3><a href="#">HandBags</a></h3>
+                                                <ul>
+                                                    <li><a href="#">Accessories</a></li>
+                                                    <li><a href="#">Hats and Gloves</a></li>
+                                                    <li><a href="#">Lifestyle</a></li>
+                                                    <li><a href="#">Bras</a></li>
+                                                    <li><a href="#">Scarves</a></li>
+                                                    <li><a href="#">Small Leathers</a></li>
+                                                </ul>
+                                            </div>
+                                            <div>
+                                                <h3><a href="#">Tops</a></h3>
+                                                <ul>
+                                                    <li><a href="#">Evening</a></li>
+                                                    <li><a href="#">Long Sleeved</a></li>
+                                                    <li><a href="#">Shrot Sleeved</a></li>
+                                                    <li><a href="#">Tanks and Camis</a></li>
+                                                    <li><a href="#">Sleeveless</a></li>
+                                                    <li><a href="#">Sleeveless</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div>
+                                                <a href="#"><img src="~/Frontend/img/banner/banner1.jpg" alt=""></a>
+                                            </div>
+                                            <div>
+                                                <a href="#"><img src="~/Frontend/img/banner/banner2.jpg" alt=""></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="#">men</a>
+                                    <div>
+                                        <div>
+                                            <div>
+                                                <h3><a href="#">Rings</a></h3>
+                                                <ul>
+                                                    <li><a href="#">Platinum Rings</a></li>
+                                                    <li><a href="#">Gold Ring</a></li>
+                                                    <li><a href="#">Silver Ring</a></li>
+                                                    <li><a href="#">Tungsten Ring</a></li>
+                                                    <li><a href="#">Sweets</a></li>
+                                                </ul>
+                                            </div>
+                                            <div>
+                                                <h3><a href="#">Bands</a></h3>
+                                                <ul>
+                                                    <li><a href="#">Platinum Bands</a></li>
+                                                    <li><a href="#">Gold Bands</a></li>
+                                                    <li><a href="#">Silver Bands</a></li>
+                                                    <li><a href="#">Silver Bands</a></li>
+                                                    <li><a href="#">Sweets</a></li>
+                                                </ul>
+                                            </div>
+                                            <div>
+                                                <a href="#"><img src="~/Frontend/img/banner/banner3.jpg" alt=""></a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="#">pages</a>
+                                    <div>
+                                        <div>
+                                            <div>
+                                                <h3><a href="#">Column1</a></h3>
+                                                <ul>
+                                                    <li><a href="portfolio.html">Portfolio</a></li>
+                                                    <li><a href="portfolio-details.html">single portfolio </a></li>
+                                                    <li><a href="about.html">About Us </a></li>
+                                                    <li><a href="about-2.html">About Us 2</a></li>
+                                                    <li><a href="services.html">Service </a></li>
+                                                    <li><a href="my-account.html">my account </a></li>
+                                                </ul>
+                                            </div>
+                                            <div>
+                                                <h3><a href="#">Column2</a></h3>
+                                                <ul>
+                                                    <li><a href="blog.html">Blog </a></li>
+                                                    <li><a href="blog-details.html">Blog  Details </a></li>
+                                                    <li><a href="blog-fullwidth.html">Blog FullWidth</a></li>
+                                                    <li><a href="blog-sidebar.html">Blog  Sidebar</a></li>
+                                                    <li><a href="faq.html">Frequently Questions</a></li>
+                                                    <li><a href="404.html">404</a></li>
+                                                </ul>
+                                            </div>
+                                            <div>
+                                                <h3><a href="#">Column3</a></h3>
+                                                <ul>
+                                                    <li><a href="contact.html">Contact</a></li>
+                                                    <li><a href="cart.html">cart</a></li>
+                                                    <li><a href="checkout.html">Checkout  </a></li>
+                                                    <li><a href="wishlist.html">Wishlist</a></li>
+                                                    <li><a href="login.html">Login</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <a href="blog.html">blog</a>
+                                    <div>
+                                        <div>
+                                            <ul>
+                                                <li><a href="blog-details.html">blog details</a></li>
+                                                <li><a href="blog-fullwidth.html">blog fullwidth</a></li>
+                                                <li><a href="blog-sidebar.html">blog sidebar</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li><a href="contact.html">contact us</a></li>
+
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--header end -->

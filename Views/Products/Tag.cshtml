@@ -1,0 +1,185 @@
+﻿@*nhan dien cac file trong thu muc Models*@
+@using X.PagedList.Web.Common;
+@using devpro_project.Models;
+@using X.PagedList.Mvc.Core;
+@*khai bao kieu du lieu cua Model*@
+@model X.PagedList.IPagedList<ItemProduct>
+@{
+    Layout = "~/Views/Shared/LayoutTrangTrong.cshtml";
+}
+@functions {
+    public MyDbContext db = new MyDbContext();
+    //lay ten danh muc uwng voi id truyen vao
+    public string GetTagName(int TagId)
+    {
+        ItemTag record = db.Tags.Where(item => item.Id == TagId).FirstOrDefault();
+        if (record != null)
+        {
+            return record.Name;
+        }
+        return "";
+    }
+}
+<div class="col-lg-9 col-md-12">
+    <!--banner slider start-->
+    <div class="banner_slider mb-35">
+        <img src="~/Frontend/img/banner/bannner10.jpg" alt="">
+    </div>
+    <!--banner slider start-->
+    <!--shop toolbar start-->
+    <div class="shop_toolbar list_toolbar mb-35">
+        <div class="list_button">
+            <ul class="nav" role="tablist">
+                <li>
+                    <a data-toggle="tab" href="#large" role="tab" aria-controls="large" aria-selected="true"><i class="fa fa-th-large"></i></a>
+                </li>
+                <li>
+                    <a class="active" data-toggle="tab" href="#list" role="tab" aria-controls="list" aria-selected="false"><i class="fa fa-th-list"></i></a>
+                </li>
+            </ul>
+        </div>
+        <div class="page_amount">
+            <p>Showing 1–9 of 21 results</p>
+        </div>
+        <div class="select_option">
+            <form action="#">
+                <label>Sort By</label>
+                <select id="orderby" onchange="location.href='/Products/Categories/@ViewBag.CategoryId?order='+document.getElementById('orderby').value;">
+                    <option selected="" value="1">Position</option>
+                    <option @if (ViewBag.order == "price-asc")
+                    {
+                        <text>selected</text>
+                    } value="price-asc">Price: Lowest</option>
+                    <option @if (ViewBag.order == "price-desc")
+                    {
+                        <text>selected</text>
+                    } value="price-desc">Price: Highest</option>
+                    <option @if (ViewBag.order == "name-asc")
+                    {
+                        <text>selected</text>
+                    } value="name-asc">Product Name A-Z</option>
+                    <option @if (ViewBag.order == "name-desc")
+                    {
+                        <text>selected</text>
+                    } value="name-desc">Product Name: Z-A</option>
+                </select>
+            </form>
+        </div>
+    </div>
+    <!--shop toolbar end-->
+    <!--shop tab product-->
+    <div class="shop_tab_product">
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade " id="large" role="tabpanel">
+                <h3>@GetTagName(ViewBag.tag_id)</h3>
+                <div class="row">
+                    @foreach (var item in Model)
+                    {
+                        <div class="col-lg-4 col-md-6">
+                            <div class="single_product">
+                                <div class="product_thumb product-thumnail">
+                                    <a href="/Products/Detail/@item.Id"><img src="~/Upload/Products/@item.Photo" alt=""></a>
+                                    <div class="img_icone">
+                                        <img src="~/Frontend/img/cart/span-new.png" alt="">
+                                    </div>
+                                    <div class="group-flash">
+                                        <span class="flash-item sale-label">sale @item.Discount%</span>
+                                    </div>
+                                    <div class="product_action">
+                                        <a href="/Cart/Buy/@item.Id"> <i class="fa fa-shopping-cart"></i> Add to cart</a>
+                                    </div>
+                                </div>
+                                <div class="product_content">
+                                    <span class="product_price">$@(item.Price - (item.Price * item.Discount) / 100)</span>
+                                    <h3 class="product_title"><a href="/Products/Detail/@item.Id">@item.Name</a></h3>
+                                </div>
+                                <div class="product_info">
+                                    <ul>
+                                        <li><a href="#" title=" Add to Wishlist ">Add to Wishlist</a></li>
+                                        <li><a href="#" data-toggle="modal" data-target="#modal_box" title="Quick view">View Detail</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    }
+
+                </div>
+            </div>
+            <div class="tab-pane fade show active" id="list" role="tabpanel">
+                <h3>@GetTagName(ViewBag.tag_id)</h3>
+                @foreach (var item in Model)
+                {
+                    <div class="product_list_item mb-35">
+                        <div class="row align-items-center">
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="product_thumb">
+                                    <a href="/Products/Detail/@item.Id"><img src="~/Upload/Products/@item.Photo" alt=""></a>
+                                    <div class="hot_img">
+                                        <img src="~/Frontend/img/cart/span-hot.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-8 col-md-6 col-sm-6">
+                                <div class="list_product_content">
+                                    <div class="product_ratting">
+                                        <ul>
+                                            <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="list_title">
+                                        <h3><a href="/Products/Detail">@item.Name</a></h3>
+                                    </div>
+                                    <p class="design"> @Html.Raw(item.Description)</p>
+                                    <div class="content_price">
+                                        <span>$@(item.Price - (item.Price * item.Discount) / 100)</span>
+                                        <span class="old-price">$@item.Price</span>
+                                    </div>
+                                    <div class="add_links">
+                                        <ul>
+                                            <li><a href="/Cart/Buy/@item.Id" title="add to cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+                                            <li><a href="#" title="add to wishlist"><i class="fa fa-heart" aria-hidden="true"></i></a></li>
+
+                                            <li><a href="#" data-toggle="modal" data-target="#modal_box" title="Quick view"><i class="fa fa-eye" aria-hidden="true"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+
+            </div>
+
+        </div>
+    </div>
+    <!--shop tab product end-->
+    <!--pagination style start-->
+    <div class="pagination_style">
+        <div class="item_page">
+            <form action="#">
+                <label for="page_select">show</label>
+                <select id="page_select">
+                    <option value="1">9</option>
+                    <option value="2">10</option>
+                    <option value="3">11</option>
+                </select>
+                <span>Products by page</span>
+            </form>
+        </div>
+        <div class="page_number">
+            <span>Pages: </span>
+            <ul>
+                @for (int i = 1; i <= @Model.PageCount; i++)
+                {
+                    <li class="current_number"><a href="/Products/Tag/@ViewBag.tag_id?page=@i">@i</a></li>
+                }
+
+            </ul>
+        </div>
+    </div>
+    <!--pagination style end-->
+</div>

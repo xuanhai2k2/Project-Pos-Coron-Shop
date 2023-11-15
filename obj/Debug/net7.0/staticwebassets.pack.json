@@ -1,0 +1,1017 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Admin\\css\\demo.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\demo.css"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Admin\\img\\avatars\\1.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\avatars\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Admin\\img\\avatars\\5.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\avatars\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Admin\\img\\avatars\\6.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\avatars\\6.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Admin\\img\\avatars\\7.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\avatars\\7.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Admin\\img\\backgrounds\\18.jpg",
+      "PackagePath": "staticwebassets\\Admin\\img\\backgrounds\\18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Admin\\img\\elements\\1.jpg",
+      "PackagePath": "staticwebassets\\Admin\\img\\elements\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Admin\\img\\elements\\11.jpg",
+      "PackagePath": "staticwebassets\\Admin\\img\\elements\\11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Admin\\img\\elements\\12.jpg",
+      "PackagePath": "staticwebassets\\Admin\\img\\elements\\12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Admin\\img\\elements\\13.jpg",
+      "PackagePath": "staticwebassets\\Admin\\img\\elements\\13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Admin\\img\\elements\\17.jpg",
+      "PackagePath": "staticwebassets\\Admin\\img\\elements\\17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Admin\\img\\elements\\18.jpg",
+      "PackagePath": "staticwebassets\\Admin\\img\\elements\\18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Admin\\img\\elements\\19.jpg",
+      "PackagePath": "staticwebassets\\Admin\\img\\elements\\19.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Admin\\img\\elements\\2.jpg",
+      "PackagePath": "staticwebassets\\Admin\\img\\elements\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Admin\\img\\elements\\20.jpg",
+      "PackagePath": "staticwebassets\\Admin\\img\\elements\\20.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Admin\\img\\elements\\3.jpg",
+      "PackagePath": "staticwebassets\\Admin\\img\\elements\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Admin\\img\\elements\\4.jpg",
+      "PackagePath": "staticwebassets\\Admin\\img\\elements\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Admin\\img\\elements\\5.jpg",
+      "PackagePath": "staticwebassets\\Admin\\img\\elements\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Admin\\img\\elements\\7.jpg",
+      "PackagePath": "staticwebassets\\Admin\\img\\elements\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Admin\\img\\favicon\\favicon.ico",
+      "PackagePath": "staticwebassets\\Admin\\img\\favicon\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Admin\\img\\icons\\brands\\asana.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\icons\\brands\\asana.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Admin\\img\\icons\\brands\\behance.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\icons\\brands\\behance.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Admin\\img\\icons\\brands\\dribbble.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\icons\\brands\\dribbble.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Admin\\img\\icons\\brands\\facebook.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\icons\\brands\\facebook.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Admin\\img\\icons\\brands\\github.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\icons\\brands\\github.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Admin\\img\\icons\\brands\\google.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\icons\\brands\\google.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Admin\\img\\icons\\brands\\instagram.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\icons\\brands\\instagram.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Admin\\img\\icons\\brands\\mailchimp.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\icons\\brands\\mailchimp.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Admin\\img\\icons\\brands\\slack.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\icons\\brands\\slack.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Admin\\img\\icons\\brands\\twitter.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\icons\\brands\\twitter.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Admin\\img\\icons\\unicons\\cc-primary.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\icons\\unicons\\cc-primary.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Admin\\img\\icons\\unicons\\cc-success.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\icons\\unicons\\cc-success.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Admin\\img\\icons\\unicons\\cc-warning.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\icons\\unicons\\cc-warning.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Admin\\img\\icons\\unicons\\chart-success.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\icons\\unicons\\chart-success.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Admin\\img\\icons\\unicons\\chart.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\icons\\unicons\\chart.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Admin\\img\\icons\\unicons\\paypal.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\icons\\unicons\\paypal.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Admin\\img\\icons\\unicons\\wallet-info.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\icons\\unicons\\wallet-info.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Admin\\img\\icons\\unicons\\wallet.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\icons\\unicons\\wallet.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Admin\\img\\illustrations\\girl-doing-yoga-light.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\illustrations\\girl-doing-yoga-light.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Admin\\img\\illustrations\\man-with-laptop-light.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\illustrations\\man-with-laptop-light.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Admin\\img\\illustrations\\page-misc-error-light.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\illustrations\\page-misc-error-light.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Admin\\img\\layouts\\layout-container-light.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\layouts\\layout-container-light.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Admin\\img\\layouts\\layout-fluid-light.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\layouts\\layout-fluid-light.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Admin\\img\\layouts\\layout-without-menu-light.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\layouts\\layout-without-menu-light.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Admin\\img\\layouts\\layout-without-navbar-light.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\layouts\\layout-without-navbar-light.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Admin\\js\\config.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\config.js"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Admin\\js\\dashboards-analytics.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\dashboards-analytics.js"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Admin\\js\\extended-ui-perfect-scrollbar.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\extended-ui-perfect-scrollbar.js"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Admin\\js\\form-basic-inputs.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\form-basic-inputs.js"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Admin\\js\\main.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Admin\\js\\pages-account-settings-account.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\pages-account-settings-account.js"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Admin\\js\\ui-modals.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\ui-modals.js"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Admin\\js\\ui-popover.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\ui-popover.js"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Admin\\js\\ui-toasts.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\ui-toasts.js"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Admin\\vendor\\css\\core.css",
+      "PackagePath": "staticwebassets\\Admin\\vendor\\css\\core.css"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Admin\\vendor\\css\\pages\\page-account-settings.css",
+      "PackagePath": "staticwebassets\\Admin\\vendor\\css\\pages\\page-account-settings.css"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Admin\\vendor\\css\\pages\\page-auth.css",
+      "PackagePath": "staticwebassets\\Admin\\vendor\\css\\pages\\page-auth.css"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Admin\\vendor\\css\\pages\\page-icons.css",
+      "PackagePath": "staticwebassets\\Admin\\vendor\\css\\pages\\page-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Admin\\vendor\\css\\pages\\page-misc.css",
+      "PackagePath": "staticwebassets\\Admin\\vendor\\css\\pages\\page-misc.css"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Admin\\vendor\\css\\theme-default.css",
+      "PackagePath": "staticwebassets\\Admin\\vendor\\css\\theme-default.css"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Admin\\vendor\\fonts\\boxicons.css",
+      "PackagePath": "staticwebassets\\Admin\\vendor\\fonts\\boxicons.css"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Admin\\vendor\\fonts\\boxicons\\boxicons.eot",
+      "PackagePath": "staticwebassets\\Admin\\vendor\\fonts\\boxicons\\boxicons.eot"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Admin\\vendor\\fonts\\boxicons\\boxicons.svg",
+      "PackagePath": "staticwebassets\\Admin\\vendor\\fonts\\boxicons\\boxicons.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Admin\\vendor\\fonts\\boxicons\\boxicons.ttf",
+      "PackagePath": "staticwebassets\\Admin\\vendor\\fonts\\boxicons\\boxicons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Admin\\vendor\\fonts\\boxicons\\boxicons.woff",
+      "PackagePath": "staticwebassets\\Admin\\vendor\\fonts\\boxicons\\boxicons.woff"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Admin\\vendor\\fonts\\boxicons\\boxicons.woff2",
+      "PackagePath": "staticwebassets\\Admin\\vendor\\fonts\\boxicons\\boxicons.woff2"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Admin\\vendor\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\Admin\\vendor\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Admin\\vendor\\js\\helpers.js",
+      "PackagePath": "staticwebassets\\Admin\\vendor\\js\\helpers.js"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Admin\\vendor\\js\\menu.js",
+      "PackagePath": "staticwebassets\\Admin\\vendor\\js\\menu.js"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Admin\\vendor\\libs\\apex-charts\\apex-charts.css",
+      "PackagePath": "staticwebassets\\Admin\\vendor\\libs\\apex-charts\\apex-charts.css"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Admin\\vendor\\libs\\apex-charts\\apexcharts.js",
+      "PackagePath": "staticwebassets\\Admin\\vendor\\libs\\apex-charts\\apexcharts.js"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Admin\\vendor\\libs\\highlight\\highlight-github.css",
+      "PackagePath": "staticwebassets\\Admin\\vendor\\libs\\highlight\\highlight-github.css"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Admin\\vendor\\libs\\highlight\\highlight.css",
+      "PackagePath": "staticwebassets\\Admin\\vendor\\libs\\highlight\\highlight.css"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Admin\\vendor\\libs\\highlight\\highlight.js",
+      "PackagePath": "staticwebassets\\Admin\\vendor\\libs\\highlight\\highlight.js"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Admin\\vendor\\libs\\jquery\\jquery.js",
+      "PackagePath": "staticwebassets\\Admin\\vendor\\libs\\jquery\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Admin\\vendor\\libs\\masonry\\masonry.js",
+      "PackagePath": "staticwebassets\\Admin\\vendor\\libs\\masonry\\masonry.js"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Admin\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.css",
+      "PackagePath": "staticwebassets\\Admin\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.css"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Admin\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.js",
+      "PackagePath": "staticwebassets\\Admin\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.js"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Admin\\vendor\\libs\\popper\\popper.js",
+      "PackagePath": "staticwebassets\\Admin\\vendor\\libs\\popper\\popper.js"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Frontend\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\css\\bundle.css",
+      "PackagePath": "staticwebassets\\Frontend\\css\\bundle.css"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\css\\plugin.css",
+      "PackagePath": "staticwebassets\\Frontend\\css\\plugin.css"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\Frontend\\css\\responsive.css"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\css\\style.css",
+      "PackagePath": "staticwebassets\\Frontend\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\fonts\\MyriadPro-Bold-1.bin",
+      "PackagePath": "staticwebassets\\Frontend\\fonts\\MyriadPro-Bold-1.bin"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\fonts\\MyriadPro-Bold-2.bin",
+      "PackagePath": "staticwebassets\\Frontend\\fonts\\MyriadPro-Bold-2.bin"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\fonts\\MyriadPro-Bold-3.bin",
+      "PackagePath": "staticwebassets\\Frontend\\fonts\\MyriadPro-Bold-3.bin"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\fonts\\MyriadPro-Bold.bin",
+      "PackagePath": "staticwebassets\\Frontend\\fonts\\MyriadPro-Bold.bin"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\fonts\\MyriadPro-Bold.svg",
+      "PackagePath": "staticwebassets\\Frontend\\fonts\\MyriadPro-Bold.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\fonts\\MyriadPro-Bold.ttf",
+      "PackagePath": "staticwebassets\\Frontend\\fonts\\MyriadPro-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\fonts\\MyriadPro-Regular-1.bin",
+      "PackagePath": "staticwebassets\\Frontend\\fonts\\MyriadPro-Regular-1.bin"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\fonts\\MyriadPro-Regular-2.bin",
+      "PackagePath": "staticwebassets\\Frontend\\fonts\\MyriadPro-Regular-2.bin"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\fonts\\MyriadPro-Regular-3.bin",
+      "PackagePath": "staticwebassets\\Frontend\\fonts\\MyriadPro-Regular-3.bin"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\fonts\\MyriadPro-Regular.bin",
+      "PackagePath": "staticwebassets\\Frontend\\fonts\\MyriadPro-Regular.bin"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\fonts\\MyriadPro-Regular.svg",
+      "PackagePath": "staticwebassets\\Frontend\\fonts\\MyriadPro-Regular.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\fonts\\MyriadPro-Regular.ttf",
+      "PackagePath": "staticwebassets\\Frontend\\fonts\\MyriadPro-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\fonts\\fontawesome-webfont-1.bin",
+      "PackagePath": "staticwebassets\\Frontend\\fonts\\fontawesome-webfont-1.bin"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\fonts\\fontawesome-webfont-2.bin",
+      "PackagePath": "staticwebassets\\Frontend\\fonts\\fontawesome-webfont-2.bin"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\fonts\\fontawesome-webfont-3.bin",
+      "PackagePath": "staticwebassets\\Frontend\\fonts\\fontawesome-webfont-3.bin"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\fonts\\fontawesome-webfont.bin",
+      "PackagePath": "staticwebassets\\Frontend\\fonts\\fontawesome-webfont.bin"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\Frontend\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\Frontend\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\banner\\background.png",
+      "PackagePath": "staticwebassets\\Frontend\\img\\banner\\background.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\banner\\banner1.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\img\\banner\\banner1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\banner\\banner11.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\img\\banner\\banner11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\banner\\banner2.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\img\\banner\\banner2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\banner\\banner3.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\img\\banner\\banner3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\banner\\banner5.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\img\\banner\\banner5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\banner\\banner6.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\img\\banner\\banner6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\banner\\banner7.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\img\\banner\\banner7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\banner\\banner8.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\img\\banner\\banner8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\banner\\banner9.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\img\\banner\\banner9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\banner\\bannner10.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\img\\banner\\bannner10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\blog\\blog1.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\img\\blog\\blog1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\blog\\blog10.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\img\\blog\\blog10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\blog\\blog11.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\img\\blog\\blog11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\blog\\blog12.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\img\\blog\\blog12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\blog\\blog13.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\img\\blog\\blog13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\blog\\blog14.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\img\\blog\\blog14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\blog\\blog2.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\img\\blog\\blog2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\blog\\blog3.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\img\\blog\\blog3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\blog\\blog4.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\img\\blog\\blog4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\blog\\blog5.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\img\\blog\\blog5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\blog\\blog6.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\img\\blog\\blog6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\blog\\blog7.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\img\\blog\\blog7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\blog\\blog8.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\img\\blog\\blog8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\blog\\blog9.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\img\\blog\\blog9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\blog\\tweets.jpeg",
+      "PackagePath": "staticwebassets\\Frontend\\img\\blog\\tweets.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\brand\\brand1.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\img\\brand\\brand1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\brand\\brand2.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\img\\brand\\brand2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\brand\\brand3.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\img\\brand\\brand3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\brand\\brand4.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\img\\brand\\brand4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\brand\\brand5.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\img\\brand\\brand5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\brand\\brand6.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\img\\brand\\brand6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\cart\\cart.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\img\\cart\\cart.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\cart\\cart17.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\img\\cart\\cart17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\cart\\cart18.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\img\\cart\\cart18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\cart\\cart19.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\img\\cart\\cart19.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\cart\\cart2.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\img\\cart\\cart2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\cart\\cart3.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\img\\cart\\cart3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\cart\\cart4.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\img\\cart\\cart4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\cart\\cart5.png",
+      "PackagePath": "staticwebassets\\Frontend\\img\\cart\\cart5.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\cart\\count.png",
+      "PackagePath": "staticwebassets\\Frontend\\img\\cart\\count.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\cart\\count2.png",
+      "PackagePath": "staticwebassets\\Frontend\\img\\cart\\count2.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\cart\\count3.png",
+      "PackagePath": "staticwebassets\\Frontend\\img\\cart\\count3.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\cart\\span-hot.png",
+      "PackagePath": "staticwebassets\\Frontend\\img\\cart\\span-hot.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\cart\\span-new.png",
+      "PackagePath": "staticwebassets\\Frontend\\img\\cart\\span-new.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\favicon.png",
+      "PackagePath": "staticwebassets\\Frontend\\img\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\logo\\fontlogo.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\img\\logo\\fontlogo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\logo\\fontlogo2.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\img\\logo\\fontlogo2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\logo\\logo.jpg.png",
+      "PackagePath": "staticwebassets\\Frontend\\img\\logo\\logo.jpg.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\portfolio\\port1.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\img\\portfolio\\port1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\portfolio\\port10.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\img\\portfolio\\port10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\portfolio\\port11.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\img\\portfolio\\port11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\portfolio\\port12.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\img\\portfolio\\port12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\portfolio\\port2.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\img\\portfolio\\port2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\portfolio\\port3.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\img\\portfolio\\port3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\portfolio\\port4.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\img\\portfolio\\port4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\portfolio\\port5.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\img\\portfolio\\port5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\portfolio\\port6.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\img\\portfolio\\port6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\portfolio\\port7.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\img\\portfolio\\port7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\portfolio\\port8.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\img\\portfolio\\port8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\portfolio\\port9.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\img\\portfolio\\port9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\product\\product1.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\img\\product\\product1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\product\\product13.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\img\\product\\product13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\product\\product14.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\img\\product\\product14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\product\\product15.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\img\\product\\product15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\product\\product2.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\img\\product\\product2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\product\\product3.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\img\\product\\product3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\product\\product4.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\img\\product\\product4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\product\\product5.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\img\\product\\product5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\product\\product6.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\img\\product\\product6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\product\\product7.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\img\\product\\product7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\product\\product8.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\img\\product\\product8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\product\\product9.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\img\\product\\product9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\product\\productbig.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\img\\product\\productbig.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\product\\productbig1.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\img\\product\\productbig1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\product\\productbig2.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\img\\product\\productbig2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\services\\service1.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\img\\services\\service1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\services\\service2.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\img\\services\\service2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\services\\service3.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\img\\services\\service3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\services\\service4.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\img\\services\\service4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\ship\\about1.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\img\\ship\\about1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\ship\\about3.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\img\\ship\\about3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\ship\\about4.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\img\\ship\\about4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\ship\\nav-left-teal.png",
+      "PackagePath": "staticwebassets\\Frontend\\img\\ship\\nav-left-teal.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\ship\\nav-right-teal.png",
+      "PackagePath": "staticwebassets\\Frontend\\img\\ship\\nav-right-teal.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\slider\\slide_1.png",
+      "PackagePath": "staticwebassets\\Frontend\\img\\slider\\slide_1.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\slider\\slide_4.png",
+      "PackagePath": "staticwebassets\\Frontend\\img\\slider\\slide_4.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\slider\\slider_2.png",
+      "PackagePath": "staticwebassets\\Frontend\\img\\slider\\slider_2.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\slider\\slider_3.png",
+      "PackagePath": "staticwebassets\\Frontend\\img\\slider\\slider_3.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\img\\visha\\papyel.png",
+      "PackagePath": "staticwebassets\\Frontend\\img\\visha\\papyel.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\js\\ajax-mail.js",
+      "PackagePath": "staticwebassets\\Frontend\\js\\ajax-mail.js"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\Frontend\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\js\\main.js",
+      "PackagePath": "staticwebassets\\Frontend\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\js\\plugins.js",
+      "PackagePath": "staticwebassets\\Frontend\\js\\plugins.js"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\js\\popper.js",
+      "PackagePath": "staticwebassets\\Frontend\\js\\popper.js"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\js\\vendor\\jquery-1.12.0.min.js",
+      "PackagePath": "staticwebassets\\Frontend\\js\\vendor\\jquery-1.12.0.min.js"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Frontend\\js\\vendor\\modernizr-2.8.3.min.js",
+      "PackagePath": "staticwebassets\\Frontend\\js\\vendor\\modernizr-2.8.3.min.js"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Upload.rar",
+      "PackagePath": "staticwebassets\\Upload.rar"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Upload\\Adv\\133347665775300265_blog-article-5.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Adv\\133347665775300265_blog-article-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Upload\\Adv\\133347665832198160_blog-article-4.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Adv\\133347665832198160_blog-article-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Upload\\Adv\\133347666187463886_digital-electronic-banner.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Adv\\133347666187463886_digital-electronic-banner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Upload\\Adv\\133347666436813850_3-slide-banner-1.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Adv\\133347666436813850_3-slide-banner-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Upload\\Adv\\133347666529861774_3-slide-banner-2.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Adv\\133347666529861774_3-slide-banner-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Upload\\News\\133345047325253075_user2-160x160.jpg",
+      "PackagePath": "staticwebassets\\Upload\\News\\133345047325253075_user2-160x160.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Upload\\News\\133345058121265657_user2-160x160.jpg",
+      "PackagePath": "staticwebassets\\Upload\\News\\133345058121265657_user2-160x160.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Upload\\News\\133345059983621404_user2-160x160.jpg",
+      "PackagePath": "staticwebassets\\Upload\\News\\133345059983621404_user2-160x160.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Upload\\News\\133345060086775002_user2-160x160.jpg",
+      "PackagePath": "staticwebassets\\Upload\\News\\133345060086775002_user2-160x160.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Upload\\News\\133345060169032254_user2-160x160.jpg",
+      "PackagePath": "staticwebassets\\Upload\\News\\133345060169032254_user2-160x160.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Upload\\News\\133345060267861926_user2-160x160.jpg",
+      "PackagePath": "staticwebassets\\Upload\\News\\133345060267861926_user2-160x160.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Upload\\News\\133347663938673035_blog-article-1.jpg",
+      "PackagePath": "staticwebassets\\Upload\\News\\133347663938673035_blog-article-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Upload\\News\\133347664032164143_blog-article-2.jpg",
+      "PackagePath": "staticwebassets\\Upload\\News\\133347664032164143_blog-article-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Upload\\News\\133347664108725619_blog-article-3.jpg",
+      "PackagePath": "staticwebassets\\Upload\\News\\133347664108725619_blog-article-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Upload\\News\\133347664196041622_blog-article-4.jpg",
+      "PackagePath": "staticwebassets\\Upload\\News\\133347664196041622_blog-article-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Upload\\News\\133428056178206350_blog6.jpg",
+      "PackagePath": "staticwebassets\\Upload\\News\\133428056178206350_blog6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Upload\\News\\133428056317589498_blog9.jpg",
+      "PackagePath": "staticwebassets\\Upload\\News\\133428056317589498_blog9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Upload\\News\\133428056387055938_blog7.jpg",
+      "PackagePath": "staticwebassets\\Upload\\News\\133428056387055938_blog7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Upload\\News\\133428056461409058_blog10.jpg",
+      "PackagePath": "staticwebassets\\Upload\\News\\133428056461409058_blog10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Upload\\Products\\133347662255310017_digital_01.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133347662255310017_digital_01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Upload\\Products\\133347662331329152_digital_02.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133347662331329152_digital_02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Upload\\Products\\133347662496222678_digital_03.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133347662496222678_digital_03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Upload\\Products\\133347662591515801_digital_04.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133347662591515801_digital_04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Upload\\Products\\133347662679251440_digital_05.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133347662679251440_digital_05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Upload\\Products\\133347662826095067_digital_07.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133347662826095067_digital_07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Upload\\Products\\133347662965399532_digital_08.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133347662965399532_digital_08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Upload\\Products\\133347663074460021_digital_09.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133347663074460021_digital_09.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Upload\\Products\\133347663189941485_digital_10.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133347663189941485_digital_10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Upload\\Products\\133347663287293555_digital_11.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133347663287293555_digital_11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Upload\\Products\\133347663373297900_digital_12.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133347663373297900_digital_12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Upload\\Products\\133347663472679669_digital_13.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133347663472679669_digital_13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Upload\\Products\\133426291708781458_1920x1080.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133426291708781458_1920x1080.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Upload\\Products\\133426312492746794_1920x1080.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133426312492746794_1920x1080.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Upload\\Products\\133427066426303765_product1.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133427066426303765_product1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Upload\\Products\\133427069442499334_product3.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133427069442499334_product3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Upload\\Products\\133428041076037791_digital_01.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133428041076037791_digital_01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Upload\\Products\\133428041331942101_digital_02.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133428041331942101_digital_02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Upload\\Products\\133428053401483092_product1.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133428053401483092_product1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Upload\\Products\\133428053851254158_product2.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133428053851254158_product2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Upload\\Products\\133428054116050640_product3.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133428054116050640_product3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Upload\\Products\\133428054364146569_product4.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133428054364146569_product4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Upload\\Products\\133428054787004487_product5.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133428054787004487_product5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Upload\\Products\\133428055052312788_product6.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133428055052312788_product6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Upload\\Products\\133428055305194749_product8.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133428055305194749_product8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Upload\\Products\\133428055587104317_product7.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133428055587104317_product7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Upload\\Products\\133428055792392839_product9.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133428055792392839_product9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Upload\\Slides\\133347666970334267_main-slider-1-1.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Slides\\133347666970334267_main-slider-1-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Upload\\Slides\\133347667081514630_main-slider-1-2.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Slides\\133347667081514630_main-slider-1-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Documents\\ASP.NET\\devpro_project\\wwwroot\\Upload\\Slides\\133347667163565643_main-slider-1-3.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Slides\\133347667163565643_main-slider-1-3.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.devpro_project.props",
+      "PackagePath": "build\\devpro_project.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.devpro_project.props",
+      "PackagePath": "buildMultiTargeting\\devpro_project.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.devpro_project.props",
+      "PackagePath": "buildTransitive\\devpro_project.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.devpro_project.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
